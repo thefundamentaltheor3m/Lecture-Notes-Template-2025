@@ -1,0 +1,60 @@
+\documentclass[a4paper, 12pt, openany, oneside]{book}
+
+\def\COURSENUMBER{MATH00001}
+\def\COURSENAME{Mathematics (just all of it)}
+\def\LECTURER{Sidharth Hariharan}
+\def\SCRIBE{Sidharth Hariharan}
+\def\UNIVERSITY{Mathematical University of Mathematics}
+\def\TERM{Spring 1857}
+
+\input{TeX_Setup/packages.tex}
+
+\input{TeX_Setup/format.tex}
+
+\input{TeX_Setup/environments.tex}
+
+\input{TeX_Setup/shortcuts.tex}
+
+\title{\vspace{-2em}\COURSENUMBER: \COURSENAME}
+\author{Lecturer: \LECTURER \\ Scribe: \SCRIBE}
+\date{\UNIVERSITY - \TERM}
+
+\begin{document}
+
+\setlength{\abovedisplayskip}{7.5pt}  % Space above an align environment
+\setlength{\belowdisplayskip}{7.5pt}  % Space below an align environment
+\setlength{\abovedisplayshortskip}{2pt}
+\setlength{\belowdisplayshortskip}{2pt}
+
+\maketitle
+\thispagestyle{empty}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+
+\nocite{*}
+
+\input{Chapters/1_Intro/1_Intro.tex}
+\input{Chapters/2_Another Chapter/2_Another_Chapter.tex}
+
+% \input{Chapters/Appendices/Appendices.tex}
+
+\newpage
+
+% \chapter*{References}
+% \addcontentsline{toc}{chapter}{References}
+% \thispagestyle{empty}
+
+% These lecture notes are based heavily on the following references:~\cite{ErdmannWildon}
+
+\defbibnote{mybibnote}{These lecture notes are based heavily on the following references:}
+
+\printbibliography[prenote=mybibnote]
+\addcontentsline{toc}{chapter}{Bibliography}
+\thispagestyle{empty}
+
+Visit~\url{https://thefundamentaltheor3m.github.io/Lecture-Notes-Template-2025/main.pdf} for the latest version of these notes. If you have any suggestions or corrections, please feel free to fork and make a pull request to my repository.
+
+\end{document}
