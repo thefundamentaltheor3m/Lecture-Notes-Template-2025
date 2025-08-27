@@ -59,6 +59,12 @@
 }{
     \end{notation}\end{tcolorbox}
 }
+\newtheorem*{warning}{Warning}
+\newenvironment{boxwarning}{
+    \begin{tcolorbox}[colback=red!50!white,colframe=red!50!black, breakable, enhanced]\begin{warning}
+}{
+    \end{warning}\end{tcolorbox}
+}
 \newtheorem{example}[theorem]{Example}
 \newenvironment{boxexample}{
     \begin{tcolorbox}[colframe=green!30!black, breakable, enhanced, breakable, enhanced]\begin{example}
