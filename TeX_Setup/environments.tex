@@ -53,6 +53,12 @@
 }{
     \end{convention}\end{tcolorbox}
 }
+\newtheorem*{notation}{Notation}
+\newenvironment{boxnotation}{
+    \begin{tcolorbox}[colback=magenta!3!white,colframe=magenta!70!black, breakable, enhanced]\begin{notation}
+}{
+    \end{notation}\end{tcolorbox}
+}
 \newtheorem{example}[theorem]{Example}
 \newenvironment{boxexample}{
     \begin{tcolorbox}[colframe=green!30!black, breakable, enhanced, breakable, enhanced]\begin{example}
