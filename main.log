@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.29)  29 AUG 2025 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.3)  3 SEP 2025 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -45,9 +45,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language62). Reported on input line 105.
+(babel)             (\language41). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language62). Reported on input line 108.
+(babel)             (\language41). Reported on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
@@ -1463,7 +1463,7 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))) (/usr/share/texlive/texmf-dist/tex/latex/qtree/qtree.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/qtree/qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 (/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
@@ -1592,6 +1592,23 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \qroofx=\count521
 \qroofy=\count522
 \@qrscratchbox=\box120
+))
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks62
+\XKV@tempa@toks=\toks63
+)
+\XKV@depth=\count523
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@@todonotes@numberoftodonotes=\count524
 )
 (./TeX_Setup/format.tex
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathfonts/sansmathfonts.sty
@@ -1668,7 +1685,7 @@ MM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count523
+\c@lastpagecount=\count525
 ) 
 )) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -1679,15 +1696,15 @@ Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 (./TeX_Setup/environments.tex
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks62
-\thm@bodyfont=\toks63
-\thm@headfont=\toks64
-\thm@notefont=\toks65
-\thm@headpunct=\toks66
+\thm@style=\toks64
+\thm@bodyfont=\toks65
+\thm@headfont=\toks66
+\thm@notefont=\toks67
+\thm@headpunct=\toks68
 \thm@preskip=\skip187
 \thm@postskip=\skip188
 \thm@headsep=\skip189
-\dth@everypar=\toks67
+\dth@everypar=\toks69
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -1705,8 +1722,8 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 Package cleveref Info: `listings' support loaded on input line 3131.
 )
-\c@theorem=\count524
-\c@problem=\count525
+\c@theorem=\count526
+\c@problem=\count527
 )
 (./TeX_Setup/shortcuts.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
@@ -1769,17 +1786,17 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count526
+\scratchcounter=\count528
 \scratchdimen=\dimen355
 \scratchbox=\box121
-\nofMPsegments=\count527
-\nofMParguments=\count528
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count529
+\nofMPsegments=\count529
+\nofMParguments=\count530
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count531
 \MPscratchDim=\dimen356
-\MPnumerator=\count530
-\makeMPintoPDFobject=\count531
-\everyMPtoPDFconversion=\toks69
+\MPnumerator=\count532
+\makeMPintoPDFobject=\count533
+\everyMPtoPDFconversion=\toks71
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1789,7 +1806,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count532
+\c@lstlisting=\count534
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1867,6 +1884,12 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
  on input line 22.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 22.
 
 LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 22.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
@@ -2017,13 +2040,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56259 strings out of 474222
- 1282226 string characters out of 5748733
- 2295739 words of memory out of 5000000
- 77561 multiletter control sequences out of 15000+600000
+ 56726 strings out of 474222
+ 1292037 string characters out of 5748734
+ 2306564 words of memory out of 5000000
+ 78014 multiletter control sequences out of 15000+600000
  576313 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,11n,110p,752b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,11n,110p,752b,1897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2074.pfb
