@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.3)  3 SEP 2025 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.19)  19 NOV 2025 04:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -45,9 +45,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language41). Reported on input line 105.
+(babel)             (\language84). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language41). Reported on input line 108.
+(babel)             (\language84). Reported on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
@@ -2040,10 +2040,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56726 strings out of 474222
- 1292037 string characters out of 5748734
- 2306564 words of memory out of 5000000
- 78014 multiletter control sequences out of 15000+600000
+ 56734 strings out of 474222
+ 1292133 string characters out of 5748732
+ 2306871 words of memory out of 5000000
+ 78022 multiletter control sequences out of 15000+600000
  576313 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,11n,110p,752b,1897s stack positions out of 10000i,1000n,20000p,200000b,200000s

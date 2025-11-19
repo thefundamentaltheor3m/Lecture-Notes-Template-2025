@@ -59,6 +59,18 @@
 }{
     \end{notation}\end{tcolorbox}
 }
+\newtheorem*{lnotation}{Local Notation}
+\newenvironment{boxlnotation}{
+    \begin{tcolorbox}[colback=magenta!3!white,colframe=magenta!70!black, breakable, enhanced]\begin{lnotation}
+}{
+    \end{lnotation}\end{tcolorbox}
+}
+\newtheorem*{abbreviation}{Abbreviation}
+\newenvironment{boxabbrev}{
+    \begin{tcolorbox}[colback=magenta!3!white,colframe=magenta!70!black, breakable, enhanced]\begin{abbreviation}
+}{
+    \end{abbreviation}\end{tcolorbox}
+}
 \newtheorem*{warning}{Warning}
 \newenvironment{boxwarning}{
     \begin{tcolorbox}[colback=red!50!white,colframe=red!50!black, breakable, enhanced]\begin{warning}
